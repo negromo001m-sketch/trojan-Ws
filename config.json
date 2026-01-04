@@ -17,11 +17,12 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/trojan",
-          "headers": {
-            "Host": "chat.mtn.bj"
-          }
+          "path": "/trojan"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
       }
     }
   ],
